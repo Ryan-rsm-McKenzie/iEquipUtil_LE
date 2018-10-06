@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\iEquip_SoulSeeker.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\SoulGem.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Utility.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="exports.def" />
   </ItemGroup>
   <ItemGroup>
@@ -26,17 +12,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\iEquip_SoulSeeker.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\SoulGem.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeeker.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\Utility.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeekerLib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_Utility.h">
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="include\InventoryEntryData.h">
       <Filter>include</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeeker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeekerLib.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_Utility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

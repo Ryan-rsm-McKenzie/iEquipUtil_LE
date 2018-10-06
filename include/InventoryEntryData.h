@@ -42,6 +42,6 @@ namespace RE
 		DEFINE_MEMBER_FN(GenerateName, const char *, 0x00475AA0);
 		DEFINE_MEMBER_FN(GetValue, SInt32, 0x00475450);
 		DEFINE_MEMBER_FN(IsOwnedBy, bool, 0x00477010, TESForm * actor, bool unk1);
-		DEFINE_MEMBER_FN(GetSoulSize, UInt32, 0x004756F0);
+		DEFINE_MEMBER_FN(GetSoulLevel, UInt32, 0x004756F0);
 	};
 }

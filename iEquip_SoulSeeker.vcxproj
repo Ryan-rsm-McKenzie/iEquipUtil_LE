@@ -191,7 +191,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\..;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)..;$(SolutionDir)skse;$(SolutionDir)..\common;$(ProjectDir)include;D:\Repos\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -225,24 +225,26 @@
     <None Include="exports.def" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\iEquip_SoulSeeker.cpp" />
-    <ClCompile Include="src\SoulGem.cpp" />
-    <ClCompile Include="src\Utility.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="include\iEquip_SoulSeeker.h" />
-    <ClInclude Include="include\InventoryEntryData.h" />
-    <ClInclude Include="include\SoulGem.h" />
-    <ClInclude Include="include\Utility.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\common\common_vc9.vcxproj">
       <Project>{20c6411c-596f-4b85-be4e-8bc91f59d8a6}</Project>
     </ProjectReference>
     <ProjectReference Include="..\skse\skse.vcxproj">
       <Project>{aa0365ec-47ea-45aa-bb1f-ebbcccc466f2}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeeker.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeekerLib.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_Utility.h" />
+    <ClInclude Include="include\InventoryEntryData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeeker.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeekerLib.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_Utility.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
