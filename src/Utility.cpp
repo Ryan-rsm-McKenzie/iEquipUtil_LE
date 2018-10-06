@@ -21,7 +21,7 @@
 namespace iEquip_SoulSeeker
 {
 	bool GIST = false;
-	UInt32 GISTindex = 0x0;
+	UInt32 GISTIndex = 0x0;
 
 
 	bool checkForGIST()
@@ -30,11 +30,11 @@ namespace iEquip_SoulSeeker
 		ASSERT(SUCCEEDED(SHGetFolderPath(NULL, CSIDL_LOCAL_APPDATA, NULL, SHGFP_TYPE_CURRENT, appdataPath)));
 
 		std::string	modlistPath = appdataPath;
-		modlistPath += "\\Skyrim Special Edition\\plugins.txt";
+		modlistPath += "\\Skyrim\\plugins.txt";
 
 		// Parse mod list file to acquire GIST presence
 		IFileStream modlistFile;
-		UInt32 modIndex = 0x04;  // main, update, and DLC
+		UInt32 modIndex = 0x00;
 		if (modlistFile.Open(modlistPath.c_str())) {
 			while (!modlistFile.HitEOF()) {
 				char buf[512];
@@ -46,26 +46,17 @@ namespace iEquip_SoulSeeker
 
 				// Determine extension type
 				std::string line = buf;
-
-				// SE: added this
-				if (line.length() > 0) {
-					if (line.front() != '*')
-						continue; // Skip not enabled files
-
-					line = line.substr(1); // Remove the * from name
-				}
-
 				std::string::size_type lastDelim = line.rfind('.');
 				if (lastDelim != std::string::npos) {
 					std::string ext = line.substr(lastDelim);
 
 					if (_stricmp(ext.c_str(), ".ESM") == 0 || _stricmp(ext.c_str(), ".ESP" ) == 0 || _stricmp(ext.c_str(), ".ESP") == 0) {
-						++modIndex;
 						std::string name = line.substr(0, lastDelim);
+						++modIndex;
 						if (name == "GIST soul trap") {
 							GIST = true;
-							GISTindex = modIndex;
-							GISTindex *= 0x1000000;
+							GISTIndex = modIndex;
+							GISTIndex *= 0x1000000;
 							break;
 						}
 					}

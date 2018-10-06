@@ -22,7 +22,6 @@ void MessageHandler(SKSEMessagingInterface::Message * a_msg)
 	switch (a_msg->type) {
 	case SKSEMessagingInterface::kMessage_DataLoaded:
 	{
-#if 0
 		_DMESSAGE("Data loaded!");
 		if (iEquip_SoulSeeker::checkForGIST()) {
 			_DMESSAGE("GIST present\n");
@@ -30,7 +29,6 @@ void MessageHandler(SKSEMessagingInterface::Message * a_msg)
 		} else {
 			_DMESSAGE("GIST not found\n");
 		}
-#endif
 		break;
 	}
 	}
@@ -40,7 +38,7 @@ void MessageHandler(SKSEMessagingInterface::Message * a_msg)
 extern "C" {
 	bool SKSEPlugin_Query(const SKSEInterface* a_skse, PluginInfo* a_info)
 	{
-		gLog.OpenRelative(CSIDL_MYDOCUMENTS, "\\My Games\\Skyrim Special Edition\\SKSE\\iEquip_SoulSeeker.log");
+		gLog.OpenRelative(CSIDL_MYDOCUMENTS, "\\My Games\\Skyrim\\SKSE\\iEquip_SoulSeeker.log");
 		gLog.SetPrintLevel(IDebugLog::kLevel_Warning);
 		gLog.SetLogLevel(IDebugLog::kLevel_DebugMessage);
 

@@ -8,7 +8,7 @@
 namespace iEquip_SoulSeeker
 {
 	extern bool GIST;
-	extern UInt32 GISTindex;
+	extern UInt32 GISTIndex;
 
 	bool checkForGIST();
 	std::string boolToString(bool a_bool);

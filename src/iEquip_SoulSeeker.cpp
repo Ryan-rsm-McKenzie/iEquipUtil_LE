@@ -133,32 +133,30 @@ namespace iEquip_SoulSeeker
 	InventoryEntryData* findOptimalCandidate(SoulGem& a_candidates, UInt32 a_reqCharge, UInt32 a_fillMethod, bool a_partialFill, bool a_wasteOK)
 	{
 		InventoryEntryData* returnData = 0;
-		if (a_wasteOK) {
-			a_reqCharge = kSoulSize_Grand;
-		}
+		UInt32 maxSoul = a_wasteOK ? kSoulSize_Grand : a_reqCharge;
+		UInt32 loopCount = a_partialFill ? 2 : 1;
 		switch (a_fillMethod) {
 		case kFillMethod_SmallerSoulsFirt:
-			if (returnData = soulSearchUp(a_candidates, kSoulSize_Petty, a_reqCharge, a_partialFill)) {
-				return returnData;
-			}
-			_DMESSAGE("Search failed, loosening requirements\n");
-			if (soulSearchUp(a_candidates, kSoulSize_Petty, kSoulSize_Grand, true)) {
-				return returnData;
-			}
-		case kFillMethod_UseLargestSoul:
-			if (returnData = soulSearchDown(a_candidates, a_reqCharge, kSoulSize_Petty, a_partialFill)) {
-				return returnData;
-			}
-			_DMESSAGE("Search failed, loosening requirements\n");
-			if (!a_partialFill) {
-				if (returnData = soulSearchDown(a_candidates, a_reqCharge, kSoulSize_Petty, true)) {
+			while (loopCount--) {
+				if (returnData = soulSearchUp(a_candidates, kSoulSize_Petty, maxSoul, a_partialFill)) {
 					return returnData;
 				}
-				_DMESSAGE("Search failed, loosening requirements\n");
+				a_partialFill = true;
 			}
-			if (returnData = soulSearchDown(a_candidates, a_reqCharge + 1, kSoulSize_Grand, true)) {
-				return returnData;
+			_DMESSAGE("Search failed, loosening requirements\n");
+			return soulSearchUp(a_candidates, kSoulSize_Petty, kSoulSize_Grand, true);
+		case kFillMethod_UseLargestSoul:
+			while (loopCount--) {
+				if (returnData = soulSearchUp(a_candidates, a_reqCharge, maxSoul, a_partialFill)) {
+					return returnData;
+				}
+				if (returnData = soulSearchDown(a_candidates, a_reqCharge - 1, kSoulSize_Petty, a_partialFill)) {
+					return returnData;
+				}
+				a_partialFill = true;
 			}
+			_DMESSAGE("Search failed, loosening requirements\n");
+			return soulSearchDown(a_candidates, kSoulSize_Grand, kSoulSize_Petty, true);
 		default:
 			std::string msg = "ERROR: Invalid fill method! (" + std::to_string(a_fillMethod) + ")\n";
 			_ERROR(msg.c_str());

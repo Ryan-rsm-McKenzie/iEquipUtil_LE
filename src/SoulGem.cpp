@@ -80,29 +80,29 @@ namespace iEquip_SoulSeeker
 	{
 		switch (a_soulSize) {
 		case kSoulSize_Petty:
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledPetty + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledPetty + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGreaterFilledPetty + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTCommonFilledPetty + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTLesserFilledPetty + GISTindex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTLesserFilledPetty + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTCommonFilledPetty + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGreaterFilledPetty + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledPetty + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledPetty + GISTIndex);
 			break;
 		case kSoulSize_Lesser:
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledLesser + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledLesser + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGreaterFilledLesser + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTCommonFilledLesser + GISTindex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTCommonFilledLesser + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGreaterFilledLesser + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledLesser + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledLesser + GISTIndex);
 			break;
 		case kSoulSize_Common:
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledCommon + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledCommon + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGreaterFilledCommon + GISTindex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGreaterFilledCommon + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledCommon + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledCommon + GISTIndex);
 			break;
 		case kSoulSize_Greater:
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledGreater + GISTindex);
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledGreater + GISTindex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTGrandFilledGreater + GISTIndex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledGreater + GISTIndex);
 			break;
 		case kSoulSize_Grand:
-			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledGrand + GISTindex);
+			a_gemInfo.compat.emplace_back(kSoulGem_GISTBlackFilledGrand + GISTIndex);
 			a_gemInfo.maxFill = a_gemInfo.compat.size();
 			break;
 		default:
