@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>iEquip_SoulSeeker</ProjectName>
+    <ProjectName>iEquip_SoulSeeker_LE</ProjectName>
     <ProjectGuid>{811DE627-8F4E-4C7E-B5EA-9CF4D0D0D03E}</ProjectGuid>
     <RootNamespace>iEquip_SoulSeeker</RootNamespace>
     <Keyword>Win32Proj</Keyword>
@@ -234,17 +234,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExtLib.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeeker.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeekerLib.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_Utility.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\RE_BaseExtraData.h" />
     <ClInclude Include="include\InventoryEntryData.h" />
+    <ClInclude Include="include\RE_EnchantmentItem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExtLib.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeeker.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeekerLib.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_Utility.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\main.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\RE_EnchantmentItem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

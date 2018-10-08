@@ -27,6 +27,15 @@
     <ClInclude Include="include\InventoryEntryData.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExtLib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\RE_BaseExtraData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE_EnchantmentItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp">
@@ -42,6 +51,12 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExtLib.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\RE_EnchantmentItem.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
