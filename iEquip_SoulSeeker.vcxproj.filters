@@ -12,51 +12,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeeker.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeekerLib.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_Utility.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="include\InventoryEntryData.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExtLib.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\include\RE_BaseExtraData.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExtLib.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\RE_EnchantmentItem.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeeker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_SoulSeekerLib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_Utility.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_BaseExtraData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_EnchantmentItem.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeeker.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExtLib.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeekerLib.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeeker.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_Utility.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_SoulSeekerLib.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\main.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_Utility.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExtLib.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_09\src\skse64\iEquip_SoulSeeker\src\RE_EnchantmentItem.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\RE_EnchantmentItem.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

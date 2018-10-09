@@ -1,6 +1,6 @@
 #pragma once
 
-#include "skse/GameExtraData.h"
+#include "GameExtraData.h"
 
 
 namespace RE
