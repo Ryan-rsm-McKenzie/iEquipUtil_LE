@@ -12,9 +12,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\InventoryEntryData.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h">
       <Filter>include</Filter>
     </ClInclude>
@@ -34,6 +31,9 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_EnchantmentItem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RE_InventoryEntryData.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
