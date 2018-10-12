@@ -36,6 +36,9 @@
     <ClInclude Include="include\RE_InventoryEntryData.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_ExtraLocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_ActorExt.cpp">
@@ -57,6 +60,9 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\RE_EnchantmentItem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_ExtraLocator.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
