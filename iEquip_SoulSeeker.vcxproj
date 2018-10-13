@@ -241,6 +241,7 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_Utility.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_WeaponExt.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_ExtraPoison.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h" />
     <ClInclude Include="include\RE_InventoryEntryData.h" />
   </ItemGroup>
   <ItemGroup>
