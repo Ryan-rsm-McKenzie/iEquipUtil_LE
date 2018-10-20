@@ -25,6 +25,9 @@
     <Filter Include="include\papyrus">
       <UniqueIdentifier>{fa263951-0e9c-4572-9aa2-fbbb01599225}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\RE">
+      <UniqueIdentifier>{980b6f50-e8c3-4778-8282-64f1e1f033d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_ActorExt.h">
@@ -57,6 +60,18 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h">
       <Filter>include\RE</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_Events.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_FormExt.h">
+      <Filter>include\papyrus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_GameEvents.h">
+      <Filter>include\RE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\iEquip_AmmoExt.h">
+      <Filter>include\papyrus</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\main.cpp">
@@ -82,6 +97,18 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_Utility.cpp">
       <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_Events.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_FormExt.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp">
+      <Filter>src\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\iEquip_AmmoExt.cpp">
+      <Filter>src\papyrus</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
