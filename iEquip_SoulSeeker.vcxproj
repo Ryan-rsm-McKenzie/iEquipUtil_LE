@@ -53,7 +53,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -61,7 +61,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ForcedIncludeFiles>common/IPrefix.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>common/IPrefix.h;Logging.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
@@ -89,7 +89,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -97,7 +97,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ForcedIncludeFiles>common/IPrefix.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>common/IPrefix.h;Logging.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
@@ -131,38 +131,40 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\ActorExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\ActorExtLib.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\AmmoExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\Events.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\ExtraLocator.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\FormExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_ExtraPoison.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_GameEvents.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\SoulSeeker.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\SoulSeekerLib.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\Utility.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\WeaponExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\version.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ActorExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ActorExtLib.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\AmmoExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Events.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ExtraLocator.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\FormExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Logging.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_ExtraPoison.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_GameEvents.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeeker.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeekerLib.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Utility.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\WeaponExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\version.h" />
     <ClInclude Include="include\RE_InventoryEntryData.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\ActorExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\ActorExtLib.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\AmmoExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\Events.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\ExtraLocator.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\FormExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\main.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\SoulSeeker.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\SoulSeekerLib.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\Utility.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\WeaponExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\ActorExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\ActorExtLib.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\AmmoExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Events.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\ExtraLocator.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\FormExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Logging.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\main.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeeker.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeekerLib.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Utility.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\WeaponExt.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\version.rc" />
+    <ResourceCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\version.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

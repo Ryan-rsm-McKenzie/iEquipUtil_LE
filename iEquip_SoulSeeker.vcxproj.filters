@@ -33,86 +33,92 @@
     <ClInclude Include="include\RE_InventoryEntryData.h">
       <Filter>include\RE</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_ExtraPoison.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h">
       <Filter>include\RE</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_GameEvents.h">
       <Filter>include\RE</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\RE_GameEvents.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_ExtraPoison.h">
       <Filter>include\RE</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\ActorExtLib.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\Events.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\ExtraLocator.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\SoulSeekerLib.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\Utility.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\ActorExt.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\WeaponExt.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\AmmoExt.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeeker.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\FormExt.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\FormExt.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\SoulSeeker.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\AmmoExt.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\include\WeaponExt.h">
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ActorExt.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\version.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Utility.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeekerLib.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ExtraLocator.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Events.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ActorExtLib.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Logging.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\version.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\main.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp">
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\WeaponExt.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeeker.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\FormExt.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\AmmoExt.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\ActorExt.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Utility.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeekerLib.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\ExtraLocator.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Events.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\ActorExtLib.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Logging.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp">
       <Filter>src\RE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\ActorExtLib.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\Events.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\ExtraLocator.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\SoulSeekerLib.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\Utility.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\ActorExt.cpp">
-      <Filter>src\papyrus</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\AmmoExt.cpp">
-      <Filter>src\papyrus</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\FormExt.cpp">
-      <Filter>src\papyrus</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\SoulSeeker.cpp">
-      <Filter>src\papyrus</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\src\WeaponExt.cpp">
-      <Filter>src\papyrus</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\skse64_2_00_10\src\skse64\iEquip_SoulSeeker\version.rc" />
+    <ResourceCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\version.rc" />
   </ItemGroup>
 </Project>
