@@ -75,7 +75,12 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Logging.h">
       <Filter>include\lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\version.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Settings.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\main.cpp">
@@ -116,6 +121,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp">
       <Filter>src\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Settings.cpp">
+      <Filter>src\lib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

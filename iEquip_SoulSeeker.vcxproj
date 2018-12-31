@@ -20,13 +20,13 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -53,7 +53,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;$(SolutionDir)Json2Settings\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -62,6 +62,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>common/IPrefix.h;Logging.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
@@ -89,7 +90,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;$(SolutionDir)Json2Settings\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -98,6 +99,7 @@
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ForcedIncludeFiles>common/IPrefix.h;Logging.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <ModuleDefinitionFile>exports.def</ModuleDefinitionFile>
@@ -126,6 +128,9 @@
     <ProjectReference Include="..\..\common\common_vc9.vcxproj">
       <Project>{20c6411c-596f-4b85-be4e-8bc91f59d8a6}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Json2Settings\Json2Settings.vcxproj">
+      <Project>{61c39244-9610-428f-9066-18fad0bc3990}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\skse\skse.vcxproj">
       <Project>{aa0365ec-47ea-45aa-bb1f-ebbcccc466f2}</Project>
     </ProjectReference>
@@ -141,11 +146,12 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_ExtraPoison.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_GameEvents.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\RE_TESObjectREFR.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Settings.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeeker.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeekerLib.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Utility.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\version.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\WeaponExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\version.h" />
     <ClInclude Include="include\RE_InventoryEntryData.h" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +164,7 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Logging.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\main.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\RE_GameEvents.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Settings.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeeker.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeekerLib.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Utility.cpp" />
