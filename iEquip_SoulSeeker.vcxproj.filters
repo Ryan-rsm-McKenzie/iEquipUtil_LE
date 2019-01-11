@@ -72,9 +72,6 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\ActorExtLib.h">
       <Filter>include\lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Logging.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Settings.h">
       <Filter>include\lib</Filter>
     </ClInclude>
@@ -83,6 +80,15 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Forms.h">
       <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\LocaleManager.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Logging.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\StringExt.h">
+      <Filter>include\papyrus</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +133,12 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Forms.cpp">
       <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\LocaleManager.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\StringExt.cpp">
+      <Filter>src\papyrus</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
