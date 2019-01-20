@@ -153,6 +153,7 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Settings.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeeker.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SoulSeekerLib.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SpellExt.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\StringExt.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\Utility.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\version.h" />
@@ -174,6 +175,7 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\Settings.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeeker.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SoulSeekerLib.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SpellExt.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\StringExt.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\WeaponExt.cpp" />
   </ItemGroup>

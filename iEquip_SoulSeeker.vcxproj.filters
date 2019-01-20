@@ -90,6 +90,9 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\StringExt.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\include\SpellExt.h">
+      <Filter>include\papyrus</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\main.cpp">
@@ -138,6 +141,9 @@
       <Filter>src\lib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\StringExt.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquip_SoulSeeker\src\SpellExt.cpp">
       <Filter>src\papyrus</Filter>
     </ClCompile>
   </ItemGroup>
