@@ -1,1 +1,1 @@
-# iEquip_SoulSeeker_LE
+# iEquipUtil_LE
