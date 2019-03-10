@@ -48,9 +48,6 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Forms.h">
       <Filter>include\lib</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Logging.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Settings.h">
       <Filter>include\lib</Filter>
     </ClInclude>
@@ -162,6 +159,9 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\TESEquipEvent.h">
       <Filter>include\RE</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Logging.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\version.rc" />
@@ -180,9 +180,6 @@
       <Filter>src\lib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\LocaleManager.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Logging.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Settings.cpp">
@@ -270,6 +267,9 @@
       <Filter>src\forms</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Hooks.cpp">
+      <Filter>src\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Logging.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
   </ItemGroup>
