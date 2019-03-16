@@ -53,14 +53,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquipUtil\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;$(SolutionDir)Json2Settings\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_15\src\skse64\iEquipUtil\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;$(SolutionDir)Json2Settings\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ForcedIncludeFiles>common/IPrefix.h;Logging.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>common/IPrefix.h;Logging.h;Utility.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <UseFullPaths>false</UseFullPaths>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -92,14 +92,14 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_12\src\skse64\iEquipUtil\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;$(SolutionDir)Json2Settings\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;D:\Repos\skse64_2_00_15\src\skse64\iEquipUtil\include;$(SolutionDir)..\common;$(SolutionDir)skse;$(SolutionDir);$(SolutionDir)..;$(SolutionDir)Json2Settings\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;PLUGIN_EXAMPLE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ForcedIncludeFiles>common/IPrefix.h;Logging.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles>common/IPrefix.h;Logging.h;Utility.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <UseFullPaths>false</UseFullPaths>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -140,88 +140,88 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ActorExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ActorExtLib.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\AlchemyItem.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\AmmoExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Armor.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Enchantment.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Events.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Exceptions.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ExtraData.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ExtraEnchantment.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ExtraHealth.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ExtraLocator.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ExtraPoison.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ExtraTextDisplayData.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\FormExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Forms.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Hooks.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\IExtraDataType.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\InventoryHandler.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ISerializableData.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\ISerializableForm.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\LocaleManager.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Logging.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RefHandle.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RefHandleManager.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\BSTList.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\ExtraPoison.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\TESEquipEvent.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\Inventory.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\ItemCrafted.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\Memory.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\RE\TESObjectREFR.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\SerializableFormFactory.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Settings.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\SoulSeeker.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\SoulSeekerLib.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\SpellExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\StringExt.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Types.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\Utility.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\version.h" />
-    <ClInclude Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\include\WeaponExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ActorExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ActorExtLib.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\AlchemyItem.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\AmmoExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Armor.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Enchantment.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Events.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Exceptions.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraData.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraEnchantment.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraHealth.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraLocator.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraPoison.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraTextDisplayData.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\FormExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Forms.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Hooks.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\IExtraDataType.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\InventoryHandler.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ISerializableData.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ISerializableForm.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\LocaleManager.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Logging.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RefHandle.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RefHandleManager.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\BSTList.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ExtraPoison.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\Inventory.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ItemCrafted.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\Memory.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\TESEquipEvent.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\TESObjectREFR.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\SerializableFormFactory.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Settings.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\SoulSeeker.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\SpellExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\StringExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Types.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\UIExt.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Utility.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\version.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\WeaponExt.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\version.rc" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ActorExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ActorExtLib.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\AlchemyItem.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\AmmoExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Armor.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Enchantment.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Events.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraData.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraEnchantment.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraHealth.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraLocator.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraPoison.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraTextDisplayData.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\FormExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Forms.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Hooks.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\IExtraDataType.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\InventoryHandler.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ISerializableData.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ISerializableForm.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\LocaleManager.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Logging.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\main.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RefHandle.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RefHandleManager.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\Inventory.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\ItemCrafted.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\TESEquipEvent.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SerializableFormFactory.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Settings.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SoulSeeker.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SpellExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\StringExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\UIExt.cpp" />
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\WeaponExt.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ActorExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ActorExtLib.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\AlchemyItem.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\AmmoExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Armor.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Enchantment.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Events.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ExtraData.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ExtraEnchantment.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ExtraHealth.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ExtraLocator.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ExtraPoison.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ExtraTextDisplayData.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\FormExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Forms.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Hooks.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\IExtraDataType.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\InventoryHandler.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ISerializableData.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\ISerializableForm.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\LocaleManager.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Logging.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\main.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\RefHandle.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\RefHandleManager.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\RE\TESEquipEvent.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\RE\Inventory.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\RE\ItemCrafted.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\SerializableFormFactory.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\Settings.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\SoulSeeker.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\SoulSeekerLib.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\SpellExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\StringExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_12\src\skse64\iEquipUtil\src\WeaponExt.cpp" />
+    <ResourceCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\version.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
