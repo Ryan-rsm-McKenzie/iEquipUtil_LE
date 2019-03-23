@@ -28,59 +28,8 @@
     <Filter Include="src\RE">
       <UniqueIdentifier>{980b6f50-e8c3-4778-8282-64f1e1f033d5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\forms">
-      <UniqueIdentifier>{12fcaca7-d373-480c-a389-309dc5694626}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\forms">
-      <UniqueIdentifier>{b31110fc-190f-4ca5-af19-93661343243a}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\AlchemyItem.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Armor.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Enchantment.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraData.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraEnchantment.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraHealth.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraPoison.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ExtraTextDisplayData.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\IExtraDataType.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\InventoryHandler.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ISerializableData.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ISerializableForm.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RefHandle.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RefHandleManager.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\SerializableFormFactory.h">
-      <Filter>include\forms</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ActorExt.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
@@ -114,9 +63,6 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\SoulSeeker.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Logging.h">
-      <Filter>include\lib</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Types.h">
       <Filter>include\lib</Filter>
     </ClInclude>
@@ -147,12 +93,6 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ExtraPoison.h">
       <Filter>include\RE</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\Inventory.h">
-      <Filter>include\RE</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ItemCrafted.h">
-      <Filter>include\RE</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\Memory.h">
       <Filter>include\RE</Filter>
     </ClInclude>
@@ -162,14 +102,17 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\TESObjectREFR.h">
       <Filter>include\RE</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\Registration.h">
+      <Filter>include\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ObjectReferenceExt.h">
+      <Filter>include\papyrus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ExtraTextDisplayData.h">
+      <Filter>include\RE</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\Inventory.cpp">
-      <Filter>src\RE</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\ItemCrafted.cpp">
-      <Filter>src\RE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\TESEquipEvent.cpp">
       <Filter>src\RE</Filter>
     </ClCompile>
@@ -203,26 +146,8 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\WeaponExt.cpp">
       <Filter>src\papyrus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Enchantment.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\AlchemyItem.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Armor.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Events.cpp">
       <Filter>src\lib</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraHealth.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraData.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraEnchantment.cpp">
-      <Filter>src\forms</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraLocator.cpp">
       <Filter>src\lib</Filter>
@@ -236,38 +161,14 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\LocaleManager.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Logging.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraPoison.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraTextDisplayData.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\IExtraDataType.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\InventoryHandler.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ISerializableData.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ISerializableForm.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SoulSeeker.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SerializableFormFactory.cpp">
-      <Filter>src\forms</Filter>
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ObjectReferenceExt.cpp">
+      <Filter>src\papyrus</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RefHandle.cpp">
-      <Filter>src\forms</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RefHandleManager.cpp">
-      <Filter>src\forms</Filter>
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Registration.cpp">
+      <Filter>src\lib</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
