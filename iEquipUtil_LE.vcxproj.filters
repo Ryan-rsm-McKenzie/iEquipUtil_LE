@@ -129,6 +129,9 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\TESUniqueIDChangeEvent.h">
       <Filter>include\RE</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\InventoryMenu.h">
+      <Filter>include\RE</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\main.cpp">
@@ -176,9 +179,6 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\LocaleManager.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SoulSeeker.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Registration.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
@@ -193,6 +193,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\RE\EventDispatcherList.cpp">
       <Filter>src\RE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SoulSeeker.cpp">
+      <Filter>src\papyrus</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -159,6 +159,7 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\EventDispatcherList.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ExtraPoison.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\ExtraTextDisplayData.h" />
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\InventoryMenu.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\Memory.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\TESEquipEvent.h" />
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\TESObjectREFR.h" />
