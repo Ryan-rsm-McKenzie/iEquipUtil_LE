@@ -132,6 +132,9 @@
     <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\RE\InventoryMenu.h">
       <Filter>include\RE</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\include\ObjectReferenceExt.h">
+      <Filter>include\papyrus</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\main.cpp">
@@ -195,6 +198,9 @@
       <Filter>src\RE</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\SoulSeeker.cpp">
+      <Filter>src\papyrus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ObjectReferenceExt.cpp">
       <Filter>src\papyrus</Filter>
     </ClCompile>
   </ItemGroup>
