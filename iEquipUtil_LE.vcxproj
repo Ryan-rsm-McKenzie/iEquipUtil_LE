@@ -183,7 +183,6 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Events.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraLocator.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\FormExt.cpp" />
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Forms.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Hooks.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\InventoryExt.cpp" />
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\LocaleManager.cpp" />

@@ -173,9 +173,6 @@
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\ExtraLocator.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Forms.cpp">
-      <Filter>src\lib</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\skse64_2_00_15\src\skse64\iEquipUtil\src\Hooks.cpp">
       <Filter>src\lib</Filter>
     </ClCompile>
