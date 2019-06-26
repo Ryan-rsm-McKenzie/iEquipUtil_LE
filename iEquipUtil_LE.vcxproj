@@ -15,7 +15,7 @@
     <ProjectGuid>{811DE627-8F4E-4C7E-B5EA-9CF4D0D0D03E}</ProjectGuid>
     <RootNamespace>iEquipUtil_LE</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -180,6 +180,7 @@
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\EventDispatcherList.h" />
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\ExtraPoison.h" />
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\ExtraTextDisplayData.h" />
+    <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\HUDMenu.h" />
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\InventoryMenu.h" />
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\Memory.h" />
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\TESEquipEvent.h" />

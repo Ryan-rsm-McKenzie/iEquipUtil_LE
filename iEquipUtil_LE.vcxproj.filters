@@ -191,6 +191,9 @@
     <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\SoulSeeker.h">
       <Filter>include\papyrus</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\skse64\src\skse64\iEquipUtil\include\RE\HUDMenu.h">
+      <Filter>include\RE</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="..\..\..\..\skse64\src\skse64\iEquipUtil\version.rc" />
